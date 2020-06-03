@@ -1,0 +1,311 @@
+/*Author
+Name: Syed Ashiqur Rahman
+Mail: silverashiq@gmail.com
+*/
+/*
+=====Index=====
+1.Header
+2.Banner
+3.News
+4.Newslettter
+5.Footer Option
+6.Footer
+
+
+*/
+
+/*Global CSS*/
+*{
+
+	margin: 0;
+	padding: 0;
+	transition: 0.5s ease
+;
+}
+body[
+font-family: 'Roboto Slab', serif;
+]
+
+/*My CSS*/
+
+
+
+
+/* 1. HEADER */
+
+
+.my-header{
+	background-color: #edeff1;
+}
+
+ 
+.mylogo{
+margin: 30px 0;
+}
+
+.my-menu{
+
+}
+.my-menu ul{
+	list-style: none;
+	margin-top:35px;
+
+}
+
+.my-menu ul li{
+	display: inline-block;
+	margin:0 5px; 
+
+}
+.my-menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #ff6d4d;
+    border-radius: 25px;
+}
+
+
+
+/* 2. BANNER */
+
+.my-banner{
+	background: url(../img/banner.jpg)fixed		no-repeat;
+	background-size: cover;
+}
+
+.bannerheading{
+	text-align: center;
+	display: block;
+padding-top: 490px;
+padding-bottom: 125px;
+}
+
+.bannerheading h1{
+	font-size: 60px;
+	color: white;
+}
+
+.bannerheading h3{
+color:white;
+}
+
+.myitems{
+text-align: center;
+}
+
+.myitems img{
+    display: block;
+    margin: 0 auto;
+}
+
+.myitems h2{
+	margin:10px 0;
+	text-align: center;
+color: white;
+
+}
+.myitems p{
+    width: 99%;
+    text-align: center;
+    color: white;
+    line-height: 1.7;
+}
+
+.readbutton{
+
+	border: none;
+	margin: 78px auto 138px auto;
+	
+	font-size: 18px;
+    color: #9b3030;
+    padding: 11px 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+/*.readmarginbot{
+	margin-bottom:138px;
+}
+*/
+
+
+
+/* 3. NEWS */
+.ournews{
+background-color: #edeff1;
+padding-top: 60px;
+
+
+}
+
+.ournews h1{
+
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.ournews img{
+margin-bottom: 10px;
+}
+
+
+.ournews h2{
+text-align: center;
+
+}
+
+
+.ournews p{
+margin-top: 5px;
+text-align: center;
+}
+
+.newsbutton{
+	border: none;
+	margin: 20px auto 60px auto;
+	
+	font-size: 13px;
+    padding: 11px 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
+/* 4.Newslettter */
+
+.newsletter{
+text-align: center;
+background: url(../img/bannertwo.jpg)no-repeat;
+background-size: cover;
+position: relative;
+padding-bottom: 110px;
+padding-top: 70px;
+}
+
+.newsletter h1{
+	margin-top: 30px;
+	color: white;
+
+}
+
+.newsletter p{
+	margin-bottom: 15px;
+	color: white;
+}
+.newsmail{
+	color:white;
+	padding: 11px 217px 11px 20px;
+	border-radius: 25px;
+	background-color: #d1b4b46b;
+}
+
+.signbutton{
+	position: absolute;
+	border: none;
+	margin: 20px auto 60px auto;
+	font-size: 18px;
+    color: #9b3030;
+    padding: 11px 50px;
+    background-color: white;
+    border-radius: 25px;
+    top: 53%;
+    left: 53%;
+}
+
+
+/*Signup Info*/
+.signupinfo{
+padding-top: 70px;
+padding-bottom: 50px;
+}
+
+.signupinfo img{
+	    width: 92%;
+    padding: 10px 20px 10px 30px;
+}
+
+.infobtnone{
+	border: none;
+	color: white;
+	font-size: 13px;
+    padding: 11px 50px;
+    background-color: #dd4b2b;
+    border-radius: 25px;
+}
+.infobtntwo {
+	border: none;
+	color: white;
+	font-size: 13px;
+    padding: 11px 50px;
+    background-color: #4b4e73;
+    border-radius: 25px;
+}
+
+.signupinfo h2{
+	margin-top: 50px;
+}
+
+/*Footer Menus*/
+
+.footeroption{
+	background-color: #d75d0e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.footeroption p{
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+/*Footer*/
+.myfooter{
+	background: url(../img/footer.jpg); 
+}
+
+.footercontent{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.footercontent p{
+	text-align: center;
+	color: white;
+}
+
+/*Media Querry Starts*/
+
+
+/*mobile Device*/
+@media (min-width:0px) and (max-width: 500px) {
+
+}
+
+
+
+/*small Device*/
+@media (min-width:500.01px) and (max-width: 768px) {
+
+	
+}
+
+/*Medium Device*/
+@media (min-width:768.01px) and (max-width: 1140px) {
+
+	
+}
+
+/*large Device*/
+@media (min-width:1140.01px)  {
+
+	
+}
+
+/*Media Querry Ends*/
